@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "Pose Detect",
+    "slug": "posedetection",
+    "owner": "inspirelab",
+    "version": "0.4.0",
+    "orientation": "landscape",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Inspirelab to access your camera."
+        }
+      ]
+    ],
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/5483caf2-2b15-491d-b77f-7eaf78e122d0"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.midbot.posedetect",
+      "buildNumber": "0.5.0",
+      "infoPlist": {
+        "NSCameraUsageDescription": "In order to share your workspace photos we need access your camera."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.midbot.posedetect",
+      "versionCode": 5,
+      "permissions": []
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5483caf2-2b15-491d-b77f-7eaf78e122d0"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}
